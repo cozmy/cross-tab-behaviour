@@ -1,0 +1,19 @@
+section {
+  margin-bottom: 75px;
+}
+
+#dragAndDropContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.drag-and-drop-item {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  width: 25%;
+}

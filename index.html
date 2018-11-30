@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <section>
+      <h3>Open multiple tabs to see to test the interaction</h3>
+      <a href="." target="_blank">Open!</a>
+    </section>
+
+    <section>
+      <h3>Service Worker Common State</h3>
+      <label>This input's value is synced across all opened tabs: <input type="text" id="syncStateWithSW"/></label>
+    </section>
+
+    <section>
+      <h3>Drag and Drop across opened tabs</h3>
+      <label>Container Key: <input type="text" id="dragAndDropKey"/></label> <br />
+      <label>Don't remove the dragged item: <input type="checkbox" id="dragAndDropKeepItems"/></label>
+      <div id="dragAndDropContainer"></div>
+    </section>
+
+    <script src="./input-state.js"></script>
+
+    <script src="./drag-and-drop/color-hash.js"></script>
+    <script src="./drag-and-drop/index.js"></script>
+  </body>
+</html>
